@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApiController;
-use App\Http\Controllers\UserController;
 
 Route::post('/user', [ApiController::class, 'addUser']);
 Route::get('/users', [ApiController::class, 'getUsers']);
